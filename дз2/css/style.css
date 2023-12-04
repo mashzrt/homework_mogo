@@ -1,0 +1,470 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/montserrat-v26-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* montserrat-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v26-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* kaushan-script-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/kaushan-script-v16-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/raleway-v29-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/raleway-v29-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/raleway-v29-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/raleway-v29-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/raleway-v29-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+
+  text-transform: uppercase;
+}
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 1170px;
+  padding-top: 43px;
+}
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 670px;
+  list-style-type: none;
+}
+.header__item {
+  width: 114px;
+  height: 100;
+  line-height: 16.44px;
+}
+.icon1 {
+  width: 24px;
+  height: 24px;
+  top: 38px;
+  left: 1257px;
+  margin-left: -4px;
+  margin-right: 4px;
+}
+.icon2 {
+  width: 24px;
+  height: 24px;
+  top: 38px;
+  left: 1316px;
+  margin-left: 10px;
+  margin-right: 0px;
+}
+.header__link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
+  opacity: 0.75%;
+}
+.intro {
+  height: 140vh;
+  width: 100vw;
+  background: url(../img/Rectangle\ 1.jpg) no-repeat center;
+  background-size: cover;
+}
+.intro__title {
+  font-weight: 700;
+  font-size: 144px;
+  line-height: 176px;
+  color: #ffffff;
+  max-width: 750px;
+  font-family: "Montserrat";
+  font-style: normal;
+  align-items: center;
+  margin: 35px;
+  margin-top: 0px;
+  border-bottom: #ffffff 4px;
+}
+.intro__title2 {
+  color: #ffffff;
+  width: 400px;
+  font-size: 40px;
+  line-height: 92.86px;
+  font-weight: 400;
+  padding-top: 177px;
+  margin: 0px;
+  font-family: "Kaushan Script";
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+.learn__more {
+  width: 370px;
+  box-sizing: border-box;
+  border: 4px solid #ffffff;
+  position: absolute;
+  height: 80px;
+  left: 37.75%;
+  top: 743px;
+  background-color: transparent;
+  color: #ffffff;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+.learn__more:hover,
+.learn__more:focus,
+.learn__more:active {
+  opacity: 0.3%;
+}
+
+.about {
+  text-decoration-line: underline;
+  text-underline-offset: 10px;
+  color: #f4bf87;
+}
+.divider {
+  position: absolute;
+  bottom: 50px;
+  left: calc(50% - 60px);
+  width: 120px;
+  height: 2px;
+  background: white;
+  border: white;
+}
+.sliders {
+  position: absolute;
+  width: 1260px;
+  height: 85px;
+  color: #ffffff;
+  margin-top: -110px;
+  margin-left: 80px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.slider_1 {
+  border-top: solid #f9efcf 3px;
+  height: 85px;
+  width: 270px;
+
+  margin-left: 60px;
+}
+.slider_2 {
+  border-top: solid #f9efcf 3px;
+  height: 85px;
+  width: 270px;
+}
+.slider_3 {
+  border-top: solid #f9efcf 3px;
+  height: 85px;
+  width: 270px;
+}
+.slider_4 {
+  border-top: solid #f9efcf 3px;
+  height: 85px;
+  width: 270px;
+}
+.story_about_us {
+  width: 1186px;
+  height: 699px;
+  margin-left: 154px;
+  margin-top: 42px;
+}
+
+.title2,
+.block_3_subtitle {
+  height: 80px;
+  color: #2d3033;
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+  text-transform: none;
+}
+.title,
+.block_3_title {
+  color: #2d3033;
+  height: 81px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  margin: 0px;
+}
+.divider2,
+.divider3 {
+  position: absolute;
+  left: calc(50% - 60px);
+  width: 120px;
+  height: 2px;
+  background: #f38281;
+  margin: 0px;
+  border: 0px;
+}
+.text {
+  width: 1170px;
+  height: 118px;
+  position: absolute;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  text-transform: none;
+}
+.squares {
+  margin: 0px;
+  margin-top: 200px;
+  max-width: 370px;
+  max-height: 338px;
+}
+.square {
+  width: 370px;
+  height: 338px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.square1 {
+  position: relative;
+  width: 370px;
+  height: 338px;
+  background-color: #95e1d3;
+  border-right: solid white 19px;
+  margin-left: 0px;
+}
+.square1_1 {
+  position: absolute;
+  margin-top: -370px;
+  margin-left: -30px;
+  width: 360px;
+  height: 338px;
+  background: linear-gradient(
+    360deg,
+    rgba(237, 215, 137, 0.9) 0%,
+    rgba(233, 130, 131, 0.9) 100%
+  );
+}
+.square1_1_text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28.18px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 28px;
+  width: 360px;
+}
+.user_plus {
+  display: flex;
+  justify-content: center;
+  margin-top: 130px;
+}
+.square2 {
+  border-right: solid white 19px;
+  border-left: solid white 19px;
+  margin: 0px;
+  margin-top: 14px;
+}
+.square3 {
+  border-left: solid white 19px;
+  border-right: 0px;
+}
+.bg {
+  width: 100%;
+  height: 250px;
+  background: #95e1d3;
+  margin-top: 150px;
+}
+
+.futures_1 {
+  position: absolute;
+  width: 234px;
+  height: 252px;
+  margin-left: 170px;
+  border: solid #ffffff 1px;
+}
+.futures_2 {
+  position: absolute;
+  width: 234px;
+  height: 252px;
+  margin-left: 404px;
+  border: solid #ffffff 1px;
+}
+.futures_3 {
+  position: absolute;
+  width: 234px;
+  height: 252px;
+  margin-left: 638px;
+  border: solid #ffffff 1px;
+}
+.futures_4 {
+  position: absolute;
+  width: 234px;
+  height: 252px;
+  margin-left: 872px;
+  border: solid #ffffff 1px;
+}
+.futures_5 {
+  position: absolute;
+  width: 234px;
+  height: 252px;
+  margin-left: 1106px;
+  border: solid #ffffff 1px;
+}
+.futures_numbers {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  color: #ffffff;
+}
+.futures_text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  text-transform: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.block_3 {
+  margin-top: 70px;
+  height: 700px;
+}
+.services {
+  width: 1170px;
+  height: 400px;
+  margin-top: 80px;
+  margin-left: 170px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.services > * {
+  height: 139px;
+  width: 370px;
+}
+.h1 {
+  font-family: "Raleway";
+  font-size: 24px;
+  color: #2d3033;
+  margin-top: -50px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+}
+.p {
+  max-width: 270px;
+  margin-left: 90px;
+  font-family: "Raleway";
+  font-size: 18px;
+  font-weight: normal;
+  text-transform: lowercase;
+}
